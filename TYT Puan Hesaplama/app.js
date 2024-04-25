@@ -33,7 +33,7 @@ let mesaj = "TYT Puan Hesaplama uygulamasına hoşgeldiniz!" + yenisatir
 let secim = prompt(mesaj);
 
 switch (secim) {
-    case 1:
+    case "1":
 
         okulpuani = Number(prompt("Okul puanınızı giriniz:"));
 
@@ -62,12 +62,13 @@ switch (secim) {
 
         break;
 
-    case 2:
+    case "2":
 
-        alert("Uygulamadan Çıkış Yapıldı")
+        alert("Uygulamadan Çıkış Yapıldı");
         break;
 
     default:
-        alert("Lütfen Geçerli Aralıkta Değer Giriniz")
+        alert("Lütfen Geçerli Aralıkta Değer Giriniz");
         break;
+
 }
